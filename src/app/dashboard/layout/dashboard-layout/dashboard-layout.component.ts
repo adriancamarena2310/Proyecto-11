@@ -22,4 +22,7 @@ export class DashboardLayoutComponent implements OnInit {
   //   return this.authService.currentUser();
   // }
 
+  onLogout() {
+    this.authService.logout();
+  }
 }
